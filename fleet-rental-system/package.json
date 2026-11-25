@@ -1,0 +1,14 @@
+{
+  "name": "fleet-rental-system",
+  "version": "1.0.0",
+  "description": "Vehicle Rental and Fleet Operations Management System (DBMS capstone, MongoDB)",
+  "main": "index.js",
+  "scripts": {
+    "setup": "node setup.js",
+    "seed": "node seed.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "mongodb": "^6.8.0"
+  }
+}
